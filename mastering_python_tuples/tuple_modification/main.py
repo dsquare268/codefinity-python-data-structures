@@ -13,8 +13,8 @@ temp_list[3] = "Adventure"
 movie_genres = tuple(temp_list)
 
 # clear the list
-temp_list.clear()
+del temp_list
 
 # Testing
 print("Updated genres:", movie_genres)
-print("What's left in temp_list:", temp_list)
+#print("What's left in temp_list:", temp_list)
